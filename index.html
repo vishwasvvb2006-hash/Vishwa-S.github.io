@@ -78,6 +78,24 @@
             text-align: center;
             padding: 20px;
             background: #020617;
+
+        .profile-pic {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    box-shadow: 0 0 15px #38bdf8;
+    object-fit: cover;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
         }
     </style>
 </head>
@@ -86,7 +104,7 @@
 
 <header>
     <!-- ADD YOUR IMAGE BELOW -->
-<img src="vishwa%20image.jpg" alt="Vishwa S" class="profile-img">
+<img src="vishwa image.jpg" class="profile-pic" alt="Profile Photo">
     
     <h1>Vishwa S</h1>
     <p>AI & Data Science Student | Building Real-World Intelligent Systems</p>
