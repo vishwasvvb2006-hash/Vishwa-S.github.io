@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
+        .profile-pic {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    object-fit: cover;
+    z-index: 1000;
+    box-shadow: 0 0 15px #38bdf8;
+}
+
+/* Hover effect */
+.profile-pic:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
         body {
             margin: 0;
             font-family: 'Segoe UI', sans-serif;
