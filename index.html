@@ -2,71 +2,127 @@
 <html>
 <head>
     <title>Vishwa Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
-            font-family: Arial;
-            margin: 40px;
-            background-color: #f5f5f5;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
         }
-        h1, h2 {
-            color: #333;
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
         }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
         .section {
-            background: white;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 10px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
         }
     </style>
 </head>
 
 <body>
 
-<h1>Vishwa S</h1>
-<p><b>Aspiring Data Analyst | AI & Data Science Student</b></p>
+<header>
+    <h1>Vishwa S</h1>
+    <p>Aspiring Data Analyst | AI & Data Science Student</p>
+</header>
+
+<div class="container">
 
 <div class="section">
-<h2>About Me</h2>
-<p>I am an AI & Data Science student interested in data analysis, machine learning, and real-world problem solving.</p>
+    <h2>About Me</h2>
+    <div class="card">
+        <p>I am an AI & Data Science student passionate about data analysis, machine learning, and solving real-world problems. I have gained hands-on experience through internships in data science and cryptography.</p>
+    </div>
 </div>
 
 <div class="section">
-<h2>Internship</h2>
-<p><b>Data Science Intern – Phoenix Softech</b></p>
-<ul>
-<li>Data cleaning and analysis</li>
-<li>Created reports and visualizations</li>
-<li>Worked with datasets</li>
-</ul>
-
-<p><b>Cryptography Intern – Phoenix Softech</b></p>
-<ul>
-<li>Learned blockchain basics</li>
-<li>Studied transaction security</li>
-</ul>
+    <h2>Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Python, SQL, Power BI</li>
+            <li>Machine Learning, Data Analysis</li>
+            <li>HTML, CSS</li>
+        </ul>
+    </div>
 </div>
 
 <div class="section">
-<h2>Skills</h2>
-<ul>
-<li>Python</li>
-<li>SQL</li>
-<li>Power BI</li>
-<li>Machine Learning</li>
-</ul>
+    <h2>Internship</h2>
+    <div class="card">
+        <b>Data Science Intern – Phoenix Softech</b>
+        <ul>
+            <li>Data cleaning and analysis</li>
+            <li>Created reports and visualizations</li>
+        </ul>
+
+        <b>Cryptography Intern – Phoenix Softech</b>
+        <ul>
+            <li>Learned blockchain and security basics</li>
+        </ul>
+    </div>
 </div>
 
 <div class="section">
-<h2>Education</h2>
-<p>B.Tech AI & Data Science<br>
-CGPA: 7.97</p>
+    <h2>Projects</h2>
+    <div class="card">
+        <p>Coming Soon...</p>
+    </div>
 </div>
 
 <div class="section">
-<h2>Contact</h2>
-<p>Email: vishwasubramanian7981@gmail.com</p>
-<p>Phone: 9698915754</p>
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: vishwasubramanian7981@gmail.com</p>
+        <p>Phone: 9698915754</p>
+    </div>
 </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Vishwa</p>
+</footer>
 
 </body>
 </html>
